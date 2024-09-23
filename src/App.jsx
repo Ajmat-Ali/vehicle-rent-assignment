@@ -1,10 +1,14 @@
 import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
-// import "./App.css";
-
+import MultiStepForm from "./component/multistepform";
+// MultiStepForm
 function App() {
-  return <>Car Rent</>;
+  return (
+    <>
+      <div className="App">
+        <MultiStepForm />
+      </div>
+    </>
+  );
 }
 
 export default App;
